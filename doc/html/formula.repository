@@ -1,0 +1,5 @@
+\form#0:$ RF_{out} = f_{PFD} \times (INT +(\frac{FRAC}{MOD})) $
+\form#1:$ f_{PFD} = REF_{IN} \times \left[ \frac{(1 + D)}{( R \times (1 + T))} \right] $
+\form#2:$ D = \textrm{RD2refdouble, ref doubler flag}$
+\form#3:$ R = \textrm{RCounter, ref divider}$
+\form#4:$ T = \textrm{RD1Rdiv2, ref divide by 2 flag}$
