@@ -20,6 +20,8 @@ most of the chip control pins, SPI inteface and RF input/output ports.  This lib
 
 A low phase noise stable oscillator  is required for this module. Typically, an Ovenized Crystal Oscillator (OCXO) in the 10 MHz to 100 MHz range is used.  
 
+A project using this library for a wideband signal generator project [siggen4351](https://github.com/dfannin/siggen4351).
+
 ## Features
 
 + Frequency Range: 35 MHz to 4.4 GHz
@@ -29,10 +31,13 @@ A low phase noise stable oscillator  is required for this module. Typically, an 
 + Step Frequency: 1 kHz to 100 MHz  
 + Signal On/Off control
 
-##
+## Library Use
 
 The library is documented in the [docs directory](doc/html/), and was created using Doxygen. 
 An example program using the library is provided in the source directory [example4351.ino](src/example4351.ino).
+
+Please note that you should install the provided BigNumber library in your Arduino library directory. This library was modified from the one provided by Nick Gammon in order to allow conversion of unsigned long types into BigNumber format, so
+the stock library will not work with code. 
 
 ## Installation
 Copy the `src/` directory to your Arduino sketchbook directory  (named the directory `example4351`), and install the libraries in your Arduino library directory.  You can also install the adf4351 files separatly  as a library.
