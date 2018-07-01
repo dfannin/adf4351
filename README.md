@@ -31,7 +31,7 @@ A low phase noise stable oscillator  is required for this module. Typically, an 
 
 ##
 
-The library is documented in the [docs directory](doc/html/index.html), and was created using Doxygen. 
+The library is documented in the [docs directory](doc/html/), and was created using Doxygen. 
 An example program using the library is provided in the source directory [example4351.ino](src/example4351.ino).
 
 ## Installation
