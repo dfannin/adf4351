@@ -134,7 +134,7 @@ int  ADF4351::setf(uint32_t freq)
     RfDivSel++  ;
   }
 
-  if ( freq > 3600000000UL )
+  if ( freq > 3600000000UL/outdiv )
     Prescaler = 1 ;
   else
     Prescaler = 0 ;
